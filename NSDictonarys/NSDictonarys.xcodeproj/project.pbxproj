@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		967373F01915768B005F4291 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967373EF1915768B005F4291 /* Foundation.framework */; };
+		967373F21915768B005F4291 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967373F11915768B005F4291 /* CoreGraphics.framework */; };
+		967373F41915768B005F4291 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967373F31915768B005F4291 /* UIKit.framework */; };
+		967373FA1915768B005F4291 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 967373F81915768B005F4291 /* InfoPlist.strings */; };
+		967373FC1915768B005F4291 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 967373FB1915768B005F4291 /* main.m */; };
+		967374001915768B005F4291 /* JSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 967373FF1915768B005F4291 /* JSAppDelegate.m */; };
+		967374031915768B005F4291 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967374011915768B005F4291 /* Main.storyboard */; };
+		967374061915768B005F4291 /* JSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967374051915768B005F4291 /* JSViewController.m */; };
+		967374081915768B005F4291 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 967374071915768B005F4291 /* Images.xcassets */; };
+		9673740F1915768B005F4291 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9673740E1915768B005F4291 /* XCTest.framework */; };
+		967374101915768B005F4291 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967373EF1915768B005F4291 /* Foundation.framework */; };
+		967374111915768B005F4291 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967373F31915768B005F4291 /* UIKit.framework */; };
+		967374191915768B005F4291 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 967374171915768B005F4291 /* InfoPlist.strings */; };
+		9673741B1915768B005F4291 /* NSDictonarysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9673741A1915768B005F4291 /* NSDictonarysTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		967374121915768B005F4291 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 967373E41915768B005F4291 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 967373EB1915768B005F4291;
+			remoteInfo = NSDictonarys;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		967373EC1915768B005F4291 /* NSDictonarys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSDictonarys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		967373EF1915768B005F4291 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		967373F11915768B005F4291 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		967373F31915768B005F4291 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		967373F71915768B005F4291 /* NSDictonarys-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSDictonarys-Info.plist"; sourceTree = "<group>"; };
+		967373F91915768B005F4291 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		967373FB1915768B005F4291 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		967373FD1915768B005F4291 /* NSDictonarys-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictonarys-Prefix.pch"; sourceTree = "<group>"; };
+		967373FE1915768B005F4291 /* JSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSAppDelegate.h; sourceTree = "<group>"; };
+		967373FF1915768B005F4291 /* JSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSAppDelegate.m; sourceTree = "<group>"; };
+		967374021915768B005F4291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		967374041915768B005F4291 /* JSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSViewController.h; sourceTree = "<group>"; };
+		967374051915768B005F4291 /* JSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSViewController.m; sourceTree = "<group>"; };
+		967374071915768B005F4291 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9673740D1915768B005F4291 /* NSDictonarysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSDictonarysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9673740E1915768B005F4291 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		967374161915768B005F4291 /* NSDictonarysTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSDictonarysTests-Info.plist"; sourceTree = "<group>"; };
+		967374181915768B005F4291 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9673741A1915768B005F4291 /* NSDictonarysTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDictonarysTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		967373E91915768B005F4291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967373F21915768B005F4291 /* CoreGraphics.framework in Frameworks */,
+				967373F41915768B005F4291 /* UIKit.framework in Frameworks */,
+				967373F01915768B005F4291 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9673740A1915768B005F4291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9673740F1915768B005F4291 /* XCTest.framework in Frameworks */,
+				967374111915768B005F4291 /* UIKit.framework in Frameworks */,
+				967374101915768B005F4291 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		967373E31915768B005F4291 = {
+			isa = PBXGroup;
+			children = (
+				967373F51915768B005F4291 /* NSDictonarys */,
+				967374141915768B005F4291 /* NSDictonarysTests */,
+				967373EE1915768B005F4291 /* Frameworks */,
+				967373ED1915768B005F4291 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		967373ED1915768B005F4291 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				967373EC1915768B005F4291 /* NSDictonarys.app */,
+				9673740D1915768B005F4291 /* NSDictonarysTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		967373EE1915768B005F4291 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				967373EF1915768B005F4291 /* Foundation.framework */,
+				967373F11915768B005F4291 /* CoreGraphics.framework */,
+				967373F31915768B005F4291 /* UIKit.framework */,
+				9673740E1915768B005F4291 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		967373F51915768B005F4291 /* NSDictonarys */ = {
+			isa = PBXGroup;
+			children = (
+				967373FE1915768B005F4291 /* JSAppDelegate.h */,
+				967373FF1915768B005F4291 /* JSAppDelegate.m */,
+				967374011915768B005F4291 /* Main.storyboard */,
+				967374041915768B005F4291 /* JSViewController.h */,
+				967374051915768B005F4291 /* JSViewController.m */,
+				967374071915768B005F4291 /* Images.xcassets */,
+				967373F61915768B005F4291 /* Supporting Files */,
+			);
+			path = NSDictonarys;
+			sourceTree = "<group>";
+		};
+		967373F61915768B005F4291 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				967373F71915768B005F4291 /* NSDictonarys-Info.plist */,
+				967373F81915768B005F4291 /* InfoPlist.strings */,
+				967373FB1915768B005F4291 /* main.m */,
+				967373FD1915768B005F4291 /* NSDictonarys-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		967374141915768B005F4291 /* NSDictonarysTests */ = {
+			isa = PBXGroup;
+			children = (
+				9673741A1915768B005F4291 /* NSDictonarysTests.m */,
+				967374151915768B005F4291 /* Supporting Files */,
+			);
+			path = NSDictonarysTests;
+			sourceTree = "<group>";
+		};
+		967374151915768B005F4291 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				967374161915768B005F4291 /* NSDictonarysTests-Info.plist */,
+				967374171915768B005F4291 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		967373EB1915768B005F4291 /* NSDictonarys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9673741E1915768B005F4291 /* Build configuration list for PBXNativeTarget "NSDictonarys" */;
+			buildPhases = (
+				967373E81915768B005F4291 /* Sources */,
+				967373E91915768B005F4291 /* Frameworks */,
+				967373EA1915768B005F4291 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSDictonarys;
+			productName = NSDictonarys;
+			productReference = 967373EC1915768B005F4291 /* NSDictonarys.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9673740C1915768B005F4291 /* NSDictonarysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 967374211915768B005F4291 /* Build configuration list for PBXNativeTarget "NSDictonarysTests" */;
+			buildPhases = (
+				967374091915768B005F4291 /* Sources */,
+				9673740A1915768B005F4291 /* Frameworks */,
+				9673740B1915768B005F4291 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				967374131915768B005F4291 /* PBXTargetDependency */,
+			);
+			name = NSDictonarysTests;
+			productName = NSDictonarysTests;
+			productReference = 9673740D1915768B005F4291 /* NSDictonarysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		967373E41915768B005F4291 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jasonstyle;
+				TargetAttributes = {
+					9673740C1915768B005F4291 = {
+						TestTargetID = 967373EB1915768B005F4291;
+					};
+				};
+			};
+			buildConfigurationList = 967373E71915768B005F4291 /* Build configuration list for PBXProject "NSDictonarys" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 967373E31915768B005F4291;
+			productRefGroup = 967373ED1915768B005F4291 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				967373EB1915768B005F4291 /* NSDictonarys */,
+				9673740C1915768B005F4291 /* NSDictonarysTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		967373EA1915768B005F4291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967374081915768B005F4291 /* Images.xcassets in Resources */,
+				967373FA1915768B005F4291 /* InfoPlist.strings in Resources */,
+				967374031915768B005F4291 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9673740B1915768B005F4291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967374191915768B005F4291 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		967373E81915768B005F4291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967373FC1915768B005F4291 /* main.m in Sources */,
+				967374061915768B005F4291 /* JSViewController.m in Sources */,
+				967374001915768B005F4291 /* JSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967374091915768B005F4291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9673741B1915768B005F4291 /* NSDictonarysTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		967374131915768B005F4291 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 967373EB1915768B005F4291 /* NSDictonarys */;
+			targetProxy = 967374121915768B005F4291 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		967373F81915768B005F4291 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				967373F91915768B005F4291 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		967374011915768B005F4291 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				967374021915768B005F4291 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		967374171915768B005F4291 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				967374181915768B005F4291 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9673741C1915768B005F4291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9673741D1915768B005F4291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9673741F1915768B005F4291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDictonarys/NSDictonarys-Prefix.pch";
+				INFOPLIST_FILE = "NSDictonarys/NSDictonarys-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		967374201915768B005F4291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDictonarys/NSDictonarys-Prefix.pch";
+				INFOPLIST_FILE = "NSDictonarys/NSDictonarys-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		967374221915768B005F4291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSDictonarys.app/NSDictonarys";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDictonarys/NSDictonarys-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NSDictonarysTests/NSDictonarysTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		967374231915768B005F4291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSDictonarys.app/NSDictonarys";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDictonarys/NSDictonarys-Prefix.pch";
+				INFOPLIST_FILE = "NSDictonarysTests/NSDictonarysTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		967373E71915768B005F4291 /* Build configuration list for PBXProject "NSDictonarys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9673741C1915768B005F4291 /* Debug */,
+				9673741D1915768B005F4291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9673741E1915768B005F4291 /* Build configuration list for PBXNativeTarget "NSDictonarys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9673741F1915768B005F4291 /* Debug */,
+				967374201915768B005F4291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		967374211915768B005F4291 /* Build configuration list for PBXNativeTarget "NSDictonarysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967374221915768B005F4291 /* Debug */,
+				967374231915768B005F4291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 967373E41915768B005F4291 /* Project object */;
+}
